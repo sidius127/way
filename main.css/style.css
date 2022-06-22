@@ -1,38 +1,146 @@
-body {background-color: white;}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Mono:ital,wght@1,300&family=Ubuntu:ital,wght@0,500;1,500&display=swap');
+body {
+    background-color: white;
+    font-family: Ubuntu;
+    margin: 0;
+    }
+
+.base {
+    width: 1170px;
+    margin: 0 auto;
+    font-family: Ubuntu;
+}
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+
+.head {
+    background: rgba(78, 190, 254, 1);
+        background: -moz-linear-gradient(left, rgba(78, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78, 190, 254, 1)), color-stop(100%, rgba(55, 143, 217, 1)));
+        background: -webkit-linear-gradient(left, rgba(78, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+        background: -o-linear-gradient(left, rgba(78, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+        background: -ms-linear-gradient(left, rgba(78, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+        background: linear-gradient(to right, rgba(78, 190, 254, 1) 0%, rgba(55, 143, 217, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ebefe', endColorstr='#378fd9', GradientType=1);
+    
+}
+ .headitem {
+    display: flex;
+    justify-content: space-between;
+ }
+.logo {margin-top: 50px ;}
 h1 {
-    color: darkred;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 600px ;
+    font-family: Ubuntu;
     font-size: 50px;
+    color: white;
      }
+.bigdream {font-size: 70px;}
 .Bblue {
-    background-color: blue;
-    color: beige;
-    width: 120px;
-    height: 75px;
+    
+color: white;
+    width: 400px;
     margin-bottom: 100px;
 }
- .redtext {
-    color: red;
- }
+
+.btn {
+    font-family: 'Montserrat Black', sans-serif;
+    background: #ffd429;
+    color: #2e2a1b;
+    font-size: 15px;
+    font-weight: 900;
+    display: block;
+    height: 56px;
+    padding: 19px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease;
+    border: none;
+}
+.btn1 {
+    width: 222px;
+}
+.btn2 {
+   width: 340px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 100px;
+}
+input {
+   width: 340px;
+   height: 45px;
+   display: list-item;
+   margin-bottom: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 0.7px solid rgb(163, 158, 158);
+
+}
+
+.btn:hover {
+    background: hsla(35, 83%, 49%, 0.938);
+}
+.future {
+    display: flex;
+    justify-content: space-between;}
+
  h2 {
-    color:  white;
-    background-color: green;
-    padding: 3px 10px;
+    color: #2e2a1b;
+    text-align: center;
     font-size: 30px;
+    font-family: 'ubuntu';
+    font-weight: bold;
  }
-.BigPadding {
-    padding: 30px;
+
+
+.f1 {
+    background: url('img/ico1.png') no-repeat top;
 }
-.textLeft {
-    margin-left:  100px ;
+footer {
+    background-color: #164d7a;
+    height: 130px;
 }
-input, button {
-    border: 0.7px solid rgb(163, 158, 158);
+ .end {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+ }
+ .ico {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .textcentr {
+   text-align: center;
+ }
+ .futureitem {
+    width: 270px;
+    margin-bottom: 200px;
+ }
+ .HFuture {
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
-.fistTable {
-    padding-left: 20px;
-    margin-top: 30px;}
-.fistTable li { 
-    border: 1.3px solid black;
-    font-size: 25px;
-    }
+p {
+    line-height: 1.65em;
+    letter-spacing: 0.11em;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+.headpict {
+    margin-bottom: 140px;
+    width: 500px;
+}
