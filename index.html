@@ -9,53 +9,61 @@
     <meta name="keywords" content="html,css, web, site" />
     <title>Way</title>
 </head>
-<body>
-    <header>
-        <img src="https://wayup-other.s3.eu-west-2.amazonaws.com/other/1650998594_wpdmn_logo.jpeg" alt="logo">
-        <h1>Вступление H1
-        </h1>
-        <p class="Bblue">Это текст моего первого домашнего задания.</p>
-           
-         <p>   Не вериться, но мне уже удаеться написать свой <span class="redtext"> первый код на HTML.</span>
-        </p>
-    </header>
-    <section>
-        <h2>Что дальше H2
-        </h2>
-       <p>Дальше, я буду получать все больше и больше опыта в разработке сайтов, что бы достичь новых вершин ! 
-            <a href="https://www.google.com.ua/" target="_blank"> Почитать больше в Google
-            </a>
-            </p>
-    </section>
-    <section>
-        <h2 class="BigPadding">Что я буду уметь ? H2
-        </h2>
-        <p class="textLeft">Я смогу создавать такие замечательные формы:
-        </p>
-        <form action="#">
-            <input type="text" placeholder="Имя" name="name" required class="IName">
-            <input type="email" placeholder="E-maik" name="email" required class="Imail">
-            <input type="tel" placeholder="Телефон" name="telephone" required class="Inumber">
-            <button type="submit">Отправить данные</button>
-        </form>  
-        <p>А так же научусь создавать списки
-        </p>
-        <ul class="fistTable">
-            <li>С одним пунктом
-            </li>
-            <li> C двумя пунктами
-            </li>
-            <li> И даже с тремя отдельными пунктами
-            </li>
-        </ul>
-    </section>
-    <footer>
-        <h2>Отличное начало ! H2
+<body> 
 
-        </h2>
-        <a href="https://my.wayup.in/lesson/2238#lesson">Перейти на страницу первого занятия курса
-        </a>
-    </footer>
+        <header class="head">
+            <div class="base headitem">
+             <div class="headcont">   
+            <img src="img/logo.png" alt="logo" class="logo">
+            <h1>С Помощью верстки я создам ту жизнь, о которой <br> <span class="bigdream">мечтаю ! </span>
+            </h1>
+            <p class="Bblue">Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить.</p>
+            
+           <a href="#" class="btn btn1">Двигаться к мечте</a>
+            </div>
+            <div class="headpict">
+                <img src="img/pic1.png" alt="travel">
+           </div> 
+            </div>
+        </header>
+        <section class="two base">
+          <h2 class="HFuture">Что меня ждет впереди</h2>
+          
+          <div class="future">
+            <div class="f1 futureitem">
+                <img src="img/ico1.png" alt="time" class="ico">
+            <h3 class="textcentr">Свободное время</h3>
+            <p class="textcentr">Мне нужно свободное время на семью и самое настоящее</p>
+            </div>
+            <div class="f2 futureitem">
+                <img src="img/ivo2.png" alt="palm" class="ico">
+                <h3 class="textcentr">Яркие путешествия</h3>
+                <p class="textcentr">Работать откуда угодно - что может быть лучше?</p>
+            </div>
+            <div class="f3 futureitem">
+                <img src="img/ico3.png" alt="rocket" class="ico">
+                <h3 class="textcentr">Создание ценности</h3>
+                <p class="textcentr">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+            </div>
+          </div>
+        
+        </section>
+        <section class="base">
+           <h2>Форма заказа билета в будущее</h2>
+        <form action="#">
+            <input type="text" placeholder="  Имя" name="name" required class="IName formclas">
+            <input type="email" placeholder="  E-mail" name="email" required class="Imail formclas">
+            <input type="tel" placeholder="  Телефон" name="telephone" required class="Inumber formclas">
+            <input type="text" placeholder="  Куда я полечу в ближайшее время?" name="travel" required class="Itravel formclas">
+            <button type="submit" class="btn btn2">Двигаться к мечте!</button>
+        </form>
+        </section>
+        <footer>
+            <div class="base"></div>
+           <p class="end" >© Все мои мечты защищены моим трудолюбием</p>
+        </div>
+        </footer>
+    </div>
     <script src="main.js/script.js"></script>
 </body>
 </html>
