@@ -144,3 +144,46 @@ p {
     margin-bottom: 140px;
     width: 500px;
 }
+@media screen and (max-width: 600px) {
+  .base {
+    width: 600px;
+    flex-direction: column;
+}
+ .future {
+     display: flex;
+    flex-direction: column;
+    
+ }
+ .futureitem {
+     width: 300px;
+     margin-bottom: 50px;
+ }
+ .form1 {
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+ }
+ .headpictimg {width: 300px;}
+ h1 {
+     width: 400px;
+     font-size: 30px;
+    
+ }
+
+ .bigdream {
+     font-size: 35px;
+ }
+  h2 {
+    font-size: 20px;
+    text-align: left;
+}
+  p {
+      line-height: 1.em;
+      letter-spacing: 0.1em;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+}
+input, .btn2 {margin-left: 0%;}
+.Bblue {width: 300px;}
+}
