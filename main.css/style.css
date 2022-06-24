@@ -186,4 +186,9 @@ p {
 }
 input, .btn2 {margin-left: 0%;}
 .Bblue {width: 300px;}
+    .headpict {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 500px;
+}
 }
