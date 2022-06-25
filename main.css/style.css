@@ -3,6 +3,7 @@ body {
     background-color: white;
     font-family: Ubuntu;
     margin: 0;
+    
     }
 
 .base {
@@ -144,51 +145,109 @@ p {
     margin-bottom: 140px;
     width: 500px;
 }
-@media screen and (max-width: 700px) {
-  .base {
-    width: 600px;
-    flex-direction: column;
-}
- .future {
-     display: flex;
-    flex-direction: column;
-    
- }
- .futureitem {
-     width: 300px;
-     margin-bottom: 50px;
- }
- .form1 {
-    display: block;
-     margin-left: auto;
-    margin-right: auto;
- }
- .headpictimg {width: 300px;}
- h1 {
-     width: 400px;
-     font-size: 30px;
-    
+@media screen and (max-width: 600px) {
+        .base {
+            width: 600px;
+            flex-direction: column;
+            margin-left: 10px;
+        }
+        .future {
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .futureitem {
+            width: 300px;
+            margin-bottom: 50px;
+            margin-left: 15%;
+        }
+        .form1 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .headpictimg {width: 400px;}
+        h1 {
+            width: 400px;
+            font-size: 25px;
+            margin-left: 30px;
+        }
+
+        .bigdream {        font-size: 35px;
+        }
+        h2 {
+            font-size: 20px;
+            text-align: left;
+            margin-left: 20%;
+        }
+        p { margin-left: 10%;
+            line-height: 1.em;
+            letter-spacing: 0.1em;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+        }
+        input, .btn2 {margin-left: 20%;}
+        .Bblue {width: 200px;}
+        .headpict {
+            padding-top: -20px;
+            margin-top: -10px;
+            margin-bottom: 70px;
+            width: 400px;
+        }
+                 .headpictimg {
+                    
+                     width: 400px;
+                     margin-left: 250px;
+                     padding-bottom: 50px;
+                     padding: 0%;
+                 }
+                 .headcont {margin-bottom: -130px;}
+                 .btn1 {margin-left:20%;}
  }
 
- .bigdream {
-     font-size: 35px;
- }
-  h2 {
-    font-size: 20px;
-    text-align: left;
+@media screen and (max-width: 414px)
+{
+.base {
+        width: 414px;
+    margin-left: 3%;}
+
+    h1, h2, p, input, button, .btn2, .btn1 {margin-left: 3%;}
+    h1 {font-size: 20px;
+      width: 300px;}
+
 }
-  p {
-      line-height: 1.em;
-      letter-spacing: 0.1em;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
+@media screen and (max-width: 1820px)
+{
+.base {
+        max-width: 815px;
+        
+    }
+        .headpictimg {
+            margin-top: 100px;
+            width: 350px;}
+        .headpict {
+            margin-left: -100px;
+            margin-top: 50px;
+            margin-bottom: 70px;
+            width: 350px;
+                        }
+        .btn1{margin-bottom: 20px;}
 }
-input, .btn2 {margin-left: 0%;}
-.Bblue {width: 300px;}
-    .headpict {
-    margin-top: 50px;
-    margin-bottom: 70px;
-    width: 500px;
-}
+@media screen and (max-width: 820px) {
+    .base {
+            max-width: 620px;
+    
+        }
+                .headpictimg {
+                    margin-top: 100px;
+                    width: 250px;
+                }
+        
+                .headpict {
+                    margin-left: -200px;
+                    margin-top: 90px;
+                    margin-bottom: 70px;
+                    width: 250px;
+                }
 }
